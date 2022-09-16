@@ -205,10 +205,10 @@ La mayoría del software se ejecuta en bucles, evaluando expresiones una y otra 
 Los bucles `for` tienen una sintaxis única, similar a la instrucción `if`, pero un poco más compleja. Primero tenemos la palabra clave `for`, seguida de paréntesis y luego abrir y cerrar llaves. Dentro de los paréntesis necesitaremos tres cosas. Primero, debemos declarar una variable, esto es sobre lo que se repetirá el bucle. Entonces tendremos una expresión condicional, el ciclo continuará sucediendo hasta que esta declaración sea `false`. Tercero, incrementaremos nuestra variable. Las tres declaraciones están separadas por un punto y coma.
 
 ```javascript
-for (let i = 0                 ; i < 10                 ; i++          ) {
+for (let i = 0                 ; i < 1000                 ; i++          ) {
 // | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
     console.log(i);
-}
+} 
 ```
 
 En este ejemplo, vemos que inicialmente establecemos nuestra variable `i` en 0, el ciclo se ejecutará y cada vez que llegue al final, aumentará el contador en uno. El bucle `for` evaluará la expresión condicional. Si es `true`, se ejecutará nuevamente, si es `false` dejará de funcionar.

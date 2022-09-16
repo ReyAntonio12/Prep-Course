@@ -1,0 +1,21 @@
+El ciclo FOR es un statement que se utiliza para realizar varias acciones de una forma ciclica sin escribir muchas lineas de codigo. 
+
+Ejemplo, le podemos dar una variable a un valor y el statement lo leeera hasta que se cumpla una condicion.
+
+
+Los comparadores logicos:
+
+Los comparadores logicos se utilizan para hacer comparaciones en tipos de datos, mas que todo, tipo de datos booleanos.
+
+&& su traducion a JS seria Y. Ejemplo:
+1 == 1 && 2 == 2, su traduccion seria 1 es igual a 1 Y 2 es igual a 2.
+
+|| su traducion a JS seria O. Ejemplo:
+
+1 == 1 || 2 == 2, su tradiccion seria: 1 es igual a 1 O 2 es igual a 2.
+
+! es considerado un operador logico NOT (NO). Este operador devolvera un valor contrario a la condicon.
+
+Ejemplo: 
+!(1===1), se traduce como: Uno es diferente a 1.
+
