@@ -1,0 +1,85 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    margin: 0;
+    /* border: 2px solid black; */
+    background-color: antiquewhite;
+}
+
+#titulo{
+    background-color: cadetblue;
+    color: white;
+    padding: 3rem 2rem; 
+}
+
+#titulo h1{
+    font-size: 2rem; /*Texto se ajustara al objeto*/
+    text-align: center; /*Centrando texto*/
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+article{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+/* .inline{
+    display: inline;
+} */
+#image{
+    display: block;
+    margin: 0px auto;   /*Alinenado la imagen dentro del articulo*/
+    width: 200px;
+}
+
+article h4{
+    margin: 1rem;
+    text-align: center;
+}
+
+a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+}
+
+.container h3{
+    text-align: center;
+}
+
+ul{
+    list-style-type: square;
+}
+
+footer{
+    background-color: darkslategray;
+    padding: 1rem;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none; 
+}

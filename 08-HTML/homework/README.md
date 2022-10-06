@@ -34,7 +34,7 @@ II Añade un poco de estilo
   H. Agregue una regla de estilo a 'thirdDiv' cambiando el color de fondo por el que quiera.
   I. Cambie el tamaño de la fuente para 'spanId' a 18px.
   J. Asignar al id 'spanId' un margen de 50px.
-  K. Asignar al id 'thirdDiv' un relleno (padding) de 50px.
+  K. Asignar al id 'thirdDiv' un relleno (padding) de 50px. 
   L. Asignar al id 'thirdDiv' un borde con cualquier ancho de color y estilo que elija.
 ```
 
